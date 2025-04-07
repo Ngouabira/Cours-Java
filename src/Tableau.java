@@ -24,8 +24,7 @@ public class Tableau {
         for (int i = 0; i < nombres.length; i++) {
             System.out.println("Nombre :" + nombres[i]);
         }
-
-
+        
         boolean test = Arrays.equals(nombres, nombres2);
         System.out.println(test);
 
