@@ -1,6 +1,6 @@
 package poo;
 
-public class Animal {
+public abstract class Animal {
 
     private String nom;
     private String race;
@@ -43,9 +43,7 @@ public class Animal {
         System.out.println("Je me déplace");
     }
 
-    public void crier(){
-        System.out.println("Je crie");
-    }
+    public abstract void crier();
 
     public void sePresenter(){
         System.out.println("Salut je suis "+ this.nom+" de la race "+this.race+" et, je pèse "+this.poids+"kg.");

@@ -16,4 +16,9 @@ public class Oiseau extends Animal{
     public void seDeplacer() {
         System.out.println(this.getNom()+" vole.");
     }
+
+    @Override
+    public void crier() {
+
+    }
 }

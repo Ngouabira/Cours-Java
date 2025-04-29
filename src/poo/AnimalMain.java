@@ -4,7 +4,7 @@ public class AnimalMain {
 
     public static void main(String[] args) {
 
-        Animal a1 = new Animal("Sans nom", "Inconnue", 70);
+        Animal a1 = new Chien("Sans nom", "Inconnue", 30, 70);
         a1.sePresenter();
         a1.crier();
 
